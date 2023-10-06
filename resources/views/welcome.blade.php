@@ -37,6 +37,8 @@
             L.tileLayer('https://api.maptiler.com/maps/basic-v2/{z}/{x}/{y}.png?key=2d9qf8gQKueHi3WUJd9F', {
                 attribution: '<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>'
             }).addTo(map);
+
+            let marker = L.marker([4.6097, -74.0817]).addTo(map);
         </script>
     </body>
 </html>
